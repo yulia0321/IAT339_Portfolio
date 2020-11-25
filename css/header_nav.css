@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px){ 
+    header h1{
+       display: none;
+    }
+    nav{
+        width: 100%;
+        background-color: #FEF9EF;
+        position: fixed;
+        text-align: center;
+        /* margin: 0 10%; */
+        padding: 7% 0;
+    }
+    nav li{
+        float: left;
+        width: 33.3%;
+    }
+    nav li a{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (min-width: 600px) {
+    nav{
+        float: right;
+        background-color: #FEF9EF;
+        /* position: fixed; */
+    }
+    nav li{
+        float: left;
+        margin-left: 30px;
+    }
+    nav li a{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width:1200px){ /*데스크탑 맥북프로 1440px 이상*/
+    nav{
+        float: right;
+    }
+    nav li{
+        float: left;
+        margin-left: 30px;
+    }
+    nav li a{
+        font-size: 1.3em;
+    }
+}
+
+/* header h1 a{
+    display: none;
+} */
+
+h1 a{
+    float: left;
+    font-family: 'Playfair Display', serif;    
+    
+    font-weight: 900;
+    color: #2D1D00;;
+}
+
+nav li a{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #574930;
+    font-weight: 300;
+}
+
+nav li:nth-child(1) a{
+    color: #2D1D00;
+    font-weight: 600;
+}
+
+nav li a:hover{
+    color: #2D1D00;
+    font-weight: 600;
+    border-bottom: 2px solid #2D1D00;
+    transition: 0.5s;
+}

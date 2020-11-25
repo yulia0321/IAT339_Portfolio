@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px){ 
+    #divider{
+        margin: 5% 10%;
+    }
+    #footer{
+        margin: 0 10%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #divider{
+        margin: 2% 0;
+    }
+}
+
+@media screen and (min-width:1200px){ /*데스크탑 맥북프로 1440px 이상*/
+    #divider{
+        margin: 2% 0;
+    }
+}
+
+#divider{
+    /* width: 80%; */
+    height: 1px;
+    background-color: #2D1D00;
+}
+
+#footer{
+    width: 80%;
+    /* margin: 0 10%; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#footer li{
+    float: left;
+    margin-right: 30px;
+}
+
+#footer a {
+    color: #2D1D00;
+    font-weight: 300;
+}
+#footer a:hover{
+    font-weight: 500;
+    transition: 0.5s;
+}

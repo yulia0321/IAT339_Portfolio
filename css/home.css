@@ -1,0 +1,93 @@
+@media screen and (max-width: 600px){ 
+    #hi{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: 20%;
+    }
+    #hi li:nth-child(1){
+        font-size: 5em;
+        font-weight: 900;
+    }
+
+    #hi li:nth-child(2){
+        font-size: 1.7em;
+    }
+
+    #intro{
+        width: 80%;
+        margin: 0 10%;
+        padding-top: 18%;
+        padding-bottom: 60%;
+    }
+    #intro p{
+        font-size: 1em;
+        line-height: 25px;
+    }
+    #intro p br{
+        display: none;
+    }
+}
+@media screen and (min-width: 600px) {
+    #hi{
+        margin-top: 20%;
+    }
+    #hi li:nth-child(1){
+        font-size: 6.7em;
+        font-weight: 900;
+    }
+    #hi li:nth-child(1) br{
+        display: none;
+    }
+    #hi li:nth-child(2){
+        font-size: 3.2em;
+    }
+    #intro{
+        padding-top: 15%;
+        padding-bottom: 60%;
+    }
+    #intro p{
+        font-size: 1.3em;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width:1200px){ /*데스크탑 맥북프로 1440px 이상*/
+    nav{
+        margin-top: 13px;
+    }
+
+    #hi{
+        margin-top: 3%;
+    }
+    #hi li:nth-child(1){
+        font-size: 8em;
+        font-weight: 900;
+    }
+    #hi li:nth-child(1) br{
+        display: none;
+    }
+    #hi li:nth-child(2){
+        font-size: 5em;
+    }
+
+    #intro{
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+    #intro p{
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+}
+
+#hi{
+    font-family: 'Playfair Display', serif;
+    color: #2D1D00;
+}
+
+#intro{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2D1D00;
+}
+
+
